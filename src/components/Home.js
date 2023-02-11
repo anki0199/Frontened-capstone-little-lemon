@@ -5,7 +5,7 @@ import About from "./About";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
 
-// const Home = ({ bookingData }) => {
+
 const Home = ({bookingData}) => {
   console.log(bookingData);
   return (

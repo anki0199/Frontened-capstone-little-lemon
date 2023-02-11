@@ -12,22 +12,34 @@ function Footer() {
           <ul>
             <h5>Navigation</h5>
             <li>
-              <Link to="/"  className="a">Home</Link>
+              <Link to="/" className="a">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about" className="a">About</Link>
+              <Link to="/about" className="a">
+                About
+              </Link>
             </li>
             <li>
-              <Link to="/menu" className="a">Menu</Link>
+              <Link to="/menu" className="a">
+                Menu
+              </Link>
             </li>
             <li>
-              <Link to="/reservations" className="a">Reservations</Link>
+              <Link to="/reservations" className="a">
+                Reservations
+              </Link>
             </li>
             <li>
-              <Link to="/order" className="a">Order Online</Link>
+              <Link to="/order" className="a">
+                Order Online
+              </Link>
             </li>
             <li>
-              <Link to="/login" className="a">Login</Link>
+              <Link to="/login" className="a">
+                Login
+              </Link>
             </li>
           </ul>
         </div>
@@ -78,50 +90,3 @@ function Footer() {
 }
 
 export default Footer;
-
-// const Footer = () => {
-//   return (
-//     <footer className="footer">
-//       <div className="one">
-//         <img src={logo} alt="Secondary Logo" />
-//       </div>
-
-//       {/* <img src={logo} width={200} height={100} alt="logo"/> */}
-//       <nav className="two">
-//         <div>
-//           <h2>Site Links</h2>
-//           <ul>
-//             <li>
-//               <Link to="/">Home</Link>
-//             </li>
-//             <li>
-//               <Link to="/about">About</Link>
-//             </li>
-//             <li>
-//               <Link to="/menu">Menu</Link>
-//             </li>
-//             <li>
-//               <Link to="/reservations">Reservations</Link>
-//             </li>
-//             <li>
-//               <Link to="/order">Order Online</Link>
-//             </li>
-//             <li>
-//               <Link to="/login">Login</Link>
-//             </li>
-//           </ul>
-//         </div>
-//       </nav>
-//       <div>
-//         <h2>Contact</h2>
-//         <p>Address</p>
-//       </div>
-//       <div>
-//         <h2>Social Media</h2>
-//         <p>Links</p>
-//       </div>
-//     </footer>
-//   );
-// };
-
-// export default Footer;

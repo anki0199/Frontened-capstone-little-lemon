@@ -1,8 +1,6 @@
-// import hamburger from '../icons/mobile.svg'
-// import ReactDOM from 'react-dom'
 import * as React from "react";
 import { Link } from "react-router-dom";
-// import "../css/nav.css";
+
 function Nav() {
   return (
     <>

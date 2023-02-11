@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 /src/components/not used
+
+# Local Netlify folder
+.netlify
